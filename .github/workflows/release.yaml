@@ -20,5 +20,7 @@ jobs:
 
       - name: Run chart-releaser job
         uses: helm/chart-releaser-action@v1.6.0
+        with:
+          packages_with_index: true
         env:
           CR_TOKEN: "${{ secrets.GHA_TOKEN }}"
