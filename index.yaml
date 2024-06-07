@@ -3,6 +3,16 @@ entries:
   chart:
   - apiVersion: v2
     appVersion: 0.1.0
+    created: "2024-06-07T23:32:12.625317009Z"
+    description: A Helm chart for Kubernetes
+    digest: fb8bdac8ca7ccd1a272d540b32fe4146fe39d36844e15201bbdc64eb9b5d67f6
+    name: chart
+    type: application
+    urls:
+    - https://github.com/seanturner026/simple-helm/releases/download/chart-0.6.0/chart-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v2
+    appVersion: 0.1.0
     created: "2024-06-07T00:10:01.162384165Z"
     description: A Helm chart for Kubernetes
     digest: ab3694fa0984c97e211a0ee756064c3138bdbc7d6f9405bd846d01003ce106c7
@@ -41,4 +51,4 @@ entries:
     urls:
     - https://github.com/seanturner026/simple-helm/releases/download/chart-0.2.0/chart-0.2.0.tgz
     version: 0.2.0
-generated: "2024-06-07T00:10:01.162530852Z"
+generated: "2024-06-07T23:32:12.625337538Z"
